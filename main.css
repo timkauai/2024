@@ -2,3 +2,46 @@ html {
     margin: 0;
     height: 0;
 }
+
+.img {
+    background-image: url('./img.jpg');
+    height: 10vw;
+    width: 10vw;
+    background-color: #cccccc;
+    background-position: 25% 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 50%;
+    margin: 2vw;
+    margin-bottom: 1vw;
+}
+
+a {
+
+}
+
+.link {
+    height: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: 4vh;
+}
+
+.linkedin {
+    background-image: url('./logos/lin.png');
+}
+
+.down {
+    background-image: url('./logos/down.png');
+}
+
+.email {
+    background-image: url('./logos/email.svg');
+}
+
+.github {
+    background-image: url('./logos/git.svg');
+}
